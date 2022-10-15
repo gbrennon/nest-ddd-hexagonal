@@ -9,7 +9,7 @@ export enum PolicyStatus {
   ARCHIVED = 'ARCHIVED',
 }
 
-interface Policy {
+export interface Policy {
   id: string;
   type: PolicyType;
   status: PolicyStatus;
